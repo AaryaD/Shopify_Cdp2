@@ -92,7 +92,7 @@ app.prepare().then(async () => {
         const response1 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "CUSTOMERS_CREATE",
         });
@@ -107,7 +107,7 @@ app.prepare().then(async () => {
         const response2 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "ORDERS_CREATE",
         });
@@ -124,7 +124,7 @@ app.prepare().then(async () => {
         const response3 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "PRODUCTS_CREATE",
         });
@@ -141,7 +141,7 @@ app.prepare().then(async () => {
         const response4 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "CARTS_CREATE",
         });
@@ -158,7 +158,7 @@ app.prepare().then(async () => {
         const response5 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "CARTS_UPDATE",
         });
@@ -171,11 +171,11 @@ app.prepare().then(async () => {
         }
         
         //Customer deletion in PUB-SUB
-
+        
         const response6 = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
-          path: "pubsub://ornate-casing-345513:webhooks2022",
+          path: "pubsub://livedemo-344213:webhooklive",
           deliveryMethod : DeliveryMethod.PubSub,
           topic: "CUSTOMERS_DELETE",
         });
